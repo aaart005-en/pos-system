@@ -32,6 +32,7 @@
         <a href="<?= base_url('about') ?>">About</a> |
         <a href="<?= base_url('customers') ?>">Customer Accounts</a> |
         <a href="<?= base_url('users') ?>">User Accounts</a>
+        | <a href="<?= base_url('logout') ?>">Logout</a>
     </nav>
 </body>
 </html>
