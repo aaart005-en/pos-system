@@ -12,6 +12,9 @@
         <a href="<?= base_url('about') ?>">About</a> |
         <a href="<?= base_url('customers') ?>">Customer Accounts</a> |
         <a href="<?= base_url('users') ?>">User Accounts</a>
+        <?php if (session()->get('isLoggedIn')): ?>
+            | <a href="<?= base_url('logout') ?>">Logout</a>
+        <?php endif; ?>
     </nav>
 </body>
 </html>
